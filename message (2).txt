@@ -7,11 +7,7 @@ import asyncio
 import random
 import string
 
-def get_token():
-    with open("C:/Users/Liams/Desktop/Token.txt", "r") as file:
-        return file.read().strip()
-
-TOKEN = get_token()
+TOKEN = "MTM1MDEzODUxMzYyNjEwNzk2OQ.G6ng0K.UrC5pcc_bhgcIZzR-HNYQRiNaDQtj3WAHCGp_8"
 ADMIN_ID = 1028600684746117170
 ALLOWED_USER_ID = 1028600684746117170
 DATA_FILE = "user_data.json"
